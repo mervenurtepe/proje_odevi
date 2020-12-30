@@ -29,6 +29,7 @@ Hesaplanan frekansaları calculated_frequencies[l] dizisine sırasıyla  yerleş
  her bir trigramın metinde kaç kez tekrar ettiğini hesapladık. Hesaplanan 
  frekansaları 10. elemandan başlayacak şekilde calculated_frequencies[l-10] 
  dizisine sırasıyla yerleştirdik.
+ 
 ADIM 4:
 - void calculate_distances (); fonksiyonu ile öklit uzaklığını hesapladık.
 - İlk olarak frequencies_eng dizisi ile, yani İngilizce dili için verilmiş olan frekans matrisi ile calculated_frequencies dizisi arasında uzaklık hesabı yaptık. İkinci olarak, frequencies_germ dizisi ile, yani Almanca dili için verilmiş olan frekans matrisi ile calculated_frequencies dizisi arasında uzaklık hesabı yaptık.Elde edilen değerler sırasıyla global “distances” dizisinde ilgili indise atadık.
